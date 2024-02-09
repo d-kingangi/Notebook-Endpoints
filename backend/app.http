@@ -1,0 +1,15 @@
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "title": "Trust",
+    "content": "do not wallet"
+}
+
+###
+GET http://localhost:3000/
+Content-Type: application/json
+
+### 
+DELETE http://localhost:3000/delete/a7a1d5db-ad1d-49e1-b973-375071fc212f
+Content-Type: application/json
